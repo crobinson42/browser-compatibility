@@ -1,0 +1,24 @@
+{
+  "name": "browser-compatibility",
+  "version": "0.0.1",
+  "description": "checks for browser compatibility with html5 features",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-uglify": "^0.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crobinson42/browser-compatibility.git"
+  },
+  "author": "coryrobinson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crobinson42/browser-compatibility/issues"
+  },
+  "homepage": "https://github.com/crobinson42/browser-compatibility"
+}
