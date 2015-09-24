@@ -25,7 +25,7 @@
     }
   };
 
-  var checkLocalStorge = function () {
+  var checkLocalStorage = function () {
     if (localStorage !== null) {
       return localStorage;
     }
@@ -44,7 +44,7 @@
 
   return window[CONFIG.namespace] = {
     cookie : checkCookie,
-    localStorage : checkLocalStorge
+    localStorage : checkLocalStorage
   };
 
 }());
